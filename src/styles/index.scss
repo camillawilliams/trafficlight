@@ -1,5 +1,27 @@
 @import "~bootstrap/scss/bootstrap.scss";
 
+
+.traffic-light
+        { background: black;
+            height: 400px;
+            width: 200px;
+        }
+
+
+.traffic-light{
+
+}
+.green-light{ 
+    background-color:grey;
+    border-radius: 58%;
+
+}
+.green-slected{
+    color:green;
+    border:2px solid black;
+    border-radius: 50%;
+    box-shadow: 20px 20px 50px 10px lightgreen;
+}
 /* 
 
     You can write your own styles here...
