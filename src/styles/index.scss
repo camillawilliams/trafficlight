@@ -11,16 +11,25 @@
 .traffic-light{
 
 }
-.green-light{ 
-    background-color:grey;
+.greenOff{ 
+    background: 50%;
     border-radius: 58%;
 
+
 }
-.green-slected{
+.greenOn{
     color:green;
-    border:2px solid black;
     border-radius: 50%;
     box-shadow: 20px 20px 50px 10px lightgreen;
+}
+.yellowOff{
+    border-radius: 50%;
+    background: grey;
+}
+.yellowOn{
+    background-color: yellow;
+    border-radius: 50%;
+    box-shadow:28px 28px 50px 10px;
 }
 /* 
 
