@@ -20,7 +20,7 @@ export const Home = () => {
 					onClick={() => setColor("yellow")}
 				/>
 				<div
-					className={color === "green" ? "greenOn" : "redOff"}
+					className={color === "green" ? "greenOn" : "greenOff"}
 					onClick={() => setColor("green")}
 				/>
 			</div>

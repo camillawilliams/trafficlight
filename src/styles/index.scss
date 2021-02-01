@@ -1,44 +1,46 @@
 @import "~bootstrap/scss/bootstrap.scss";
 
-
-.traffic-light
-        { background: black;
-            height: 400px;
-            width: 200px;
-        }
-
-
-.traffic-light{
+.traffic-light {
+    background: black;
+    height: 415px;
+    width: 200px;
+    padding-left: 2rem;
+    border-radius: 10px 10px 10px 10px;
 
 }
-.greenOff{ 
-    background: 50%;
-    border-radius: 58%;
 
-
+.traffic-light div {
+    height: 130px;
+    width: 140px;
+    padding-left: 4em;
+    padding-top: 5em;
 }
-.greenOn{
-    color:green;
+
+.greyLight {
     border-radius: 50%;
-    box-shadow: 20px 20px 50px 10px lightgreen;
+    background: lightgray;
+    margin-bottom: 5px;
+    margin-top: 5px;
 }
-.yellowOff{
+
+.redOff {
+    background-color: red;
     border-radius: 50%;
-    background: grey;
+    box-shadow: 20px 20px 50px 10px lightcoral;
+    margin-bottom: 5px;
+    margin-top: 5px;
 }
-.yellowOn{
+
+.yellowOff {
     background-color: yellow;
     border-radius: 50%;
-    box-shadow:28px 28px 50px 10px;
+    box-shadow: 20px 20px 50px 10px yellowgreen;
+    margin-bottom: 5px;
 }
-/* 
 
-    You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
-
-*/
+.greenOff {
+    background-color: green;
+    border-radius: 50%;
+    box-shadow: 20px 20px 50px 10px lightgreen;
+    margin-bottom: 5px;
+}
