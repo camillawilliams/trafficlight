@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 
 //include images into your bundle
 import rigoImage from "../../img/rigo-baby.jpg";
@@ -7,7 +7,18 @@ import rigoImage from "../../img/rigo-baby.jpg";
 
 export const Home = () => {
 	const [color, setColor] = useState("");
-
+	useEffect(() => {
+		const interval = setInterval(() => {
+			color === "red"
+				? setColor("green")
+				: color === "yellow"
+				? setColor("red")
+				: color === "green"
+				? setColor("yellow")
+				: null;
+		}, 1000);
+		return () => clearInterval(interval);
+	}, [color]);
 	return (
 		<>
 			<div className="traffic-light">
