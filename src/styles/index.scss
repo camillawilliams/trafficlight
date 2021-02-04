@@ -23,24 +23,37 @@
     margin-top: 5px;
 }
 
-.redOff {
+.redOff{
+    border-radius: 50%;
+    background: gray;
+}
+
+.redOn{
     background-color: red;
     border-radius: 50%;
-    box-shadow: 20px 20px 50px 10px lightcoral;
-    margin-bottom: 5px;
-    margin-top: 5px;
+    box-shadow:20px 20px 50px 10px lightcoral; 
+
 }
 
-.yellowOff {
-    background-color: yellow;
+.greenOff{
     border-radius: 50%;
-    box-shadow: 20px 20px 50px 10px yellowgreen;
-    margin-bottom: 5px;
+    background: gray;
 }
 
-.greenOff {
+.greenOn{
     background-color: green;
     border-radius: 50%;
-    box-shadow: 20px 20px 50px 10px lightgreen;
-    margin-bottom: 5px;
+    box-shadow:20px 20px 50px 10px lightgreen; 
+
+
+}
+.yellowOff{
+    border-radius: 50%;
+    background: gray;
+}
+
+.yellowOn{
+    background-color: yellow;
+    border-radius: 50%;
+    box-shadow:20px 20px 50px 10px yellowgreen; 
 }
